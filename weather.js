@@ -1,3 +1,5 @@
+import API_KEY from config.js;
+
 const weatherSummary = document.querySelector(".js-weatherSummary");
 const weatherNumber = document.querySelector(".js-weatherNumber");
 
