@@ -1,7 +1,5 @@
 const weatherSummary = document.querySelector(".js-weatherSummary");
 const weatherNumber = document.querySelector(".js-weatherNumber");
-
-
 const COORDS = "coords";
 
 function getWeather(lat,lon){
