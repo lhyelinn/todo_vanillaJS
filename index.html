@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do - Enhance your productivity</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+    <div class="js-clock clockframe">       
+        <h1></h1>
+        <span class="date"></span>
+    </div>
+    
+    
+    <form class="js-form form">
+        <label class="js-greetings greetings"></label>
+        <input type="text" class="askName" placeholder="What is your name?" />
+    </form>
+    <div class="task-div">
+        <form class="js-taskForm">
+            <input type="text" placeholder="Add Task" />
+        </form>
+        <div class="block-container">
+            <div class = "pendingBlock blocks">
+                <h2>Pending</h2>
+                <ul class="js-pendingList"></ul>
+            </div>
+            <div class="completedBlock blocks">
+                <h2>Completed</h2>
+                <ul class="js-completedList"></ul>
+            </div>
+        </div>
+    </div>
+    <span class="js-weatherNumber weatherInfo"></span>
+    <span class="js-weatherSummary weatherInfo"></span>
+
+
+
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="task.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+
+</body>
+</html>

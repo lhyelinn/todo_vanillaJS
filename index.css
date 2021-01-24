@@ -1,0 +1,109 @@
+html {
+  height: 100%;
+}
+body {
+  font-family: sans-serif;
+  background-color: #dedfdf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0px;
+}
+
+.clockframe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.form,
+.greetings {
+  font-size: 30px;
+  margin: 10px;
+}
+
+h1 {
+  font-size: 100px;
+  display: block;
+  margin: 3px;
+}
+
+.date {
+  display: block;
+  margin: 0px;
+}
+
+h2 {
+  margin: 20px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
+
+input {
+  border: none;
+  background-color: rgba(226, 226, 226, 0.8);
+  border-radius: 20px;
+  height: 40px;
+  width: 800px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.askName {
+  width: 400px;
+}
+
+.block-container,
+.task-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.task-div {
+  flex-direction: column;
+}
+
+.blocks {
+  margin: 10px 5px;
+  padding: 10px;
+  width: 500px;
+  height: 300px;
+  background-color: rgba(226, 226, 226, 0.5);
+  border-radius: 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+.disappear {
+  display: none;
+}
+
+.weatherInfo {
+  margin: 2px;
+  background-color: rgba(226, 226, 226, 0.75);
+}
