@@ -1,4 +1,5 @@
-import API_KEY from './config';
+const API_KEY ="7de688622a991ceb26bd99b8d34189de";
+
 const weatherSummary = document.querySelector(".js-weatherSummary");
 const weatherNumber = document.querySelector(".js-weatherNumber");
 const COORDS = "coords";
